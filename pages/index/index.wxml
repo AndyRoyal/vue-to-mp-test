@@ -1,0 +1,2 @@
+<view>{{text}}</view>
+<view>{{array[0].msg}}</view>

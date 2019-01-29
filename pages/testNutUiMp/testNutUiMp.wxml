@@ -1,0 +1,30 @@
+<view>
+    <view>count组件</view>
+      <count max='99' min='1' count='1'></count>
+    <view>cell组件</view>
+      <cell 
+        title = "左侧主标题" 
+        subTitle = "左侧副标题"
+        desc="右侧描述文字">
+      </cell>
+    <view>radio组件</view>
+      <radio1 
+        size="large"
+      >小号
+      </radio1>
+      <view>searchbar</view>
+      <searchbar
+    placeText="ERP/姓名/邮箱"
+    :hasIcon="true"
+    :hasTextButton="true"
+    textInfo="取消"
+    customClass="search_demo"
+    bind:focus="focusFun"
+    bind:input="inputFun"
+    bind:blur="blurFun"
+    bind:submit="submitFun"
+></searchbar>
+
+</view>
+
+

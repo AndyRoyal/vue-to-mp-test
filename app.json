@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/testNutUiMp/testNutUiMp"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

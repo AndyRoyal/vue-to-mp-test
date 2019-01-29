@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "test nutui mp",
+  "usingComponents": {
+    "count": "../../components/count/count",
+    "cell": "../../components/cell/cell",
+    "radio1": "../../components/radio/radio",
+    "searchbar": "../../components/searchbar/searchbar"
+  }
+}

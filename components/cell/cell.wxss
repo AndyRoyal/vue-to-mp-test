@@ -1,0 +1,42 @@
+.nut-cell {
+    display: block;
+    padding: 0 10rpx;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+
+}
+    .nut-cell-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 48rpx;
+    }
+    .nut-cell-left {
+        flex: 1;
+        flex-direction: column;
+    }
+    .nut-cell-title {
+        display: block;
+        line-height: 26rpx;
+        font-size: 26rpx;
+        color: #ccc;
+    }
+    .nut-cell-sub-title {
+        display: block;
+        line-height: 1;
+        font-size: 26rpx;
+        color: #999;
+        margin-top: 5rpx;
+    }
+    .nut-cell-right {
+        display: flex;
+        align-items: center;
+        font-size: 26rpx;
+        color: #000;
+    }
+    .nut-cell-icon {
+        display: flex;
+        align-items: center;
+      
+    }
